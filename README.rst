@@ -4,7 +4,7 @@ lac.linuxaudio.org
 |
 | The website is constructed from
 
-* a `pelican <http://getpelican.com>`_ project (all content as reStructuredText, see **reStructuredText_CheatSheet.txt** for help).
+* a `pelican <http://getpelican.com>`_ project (all content as `reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_ in the **content** folder).
 * a subset of `pelican-plugins <https://github.com/getpelican/pelican-plugins/>`_, which are a submodule of this repository in the folder **pelican-plugins**
 * a customized theme - have a look at the **theme** folder (soon)
 
