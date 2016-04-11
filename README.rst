@@ -4,8 +4,8 @@ lac.linuxaudio.org
 |
 | The website is constructed from
 
-* a `pelican (https://getpelican.com)` project (all content as reStructuredText, see **reStructuredText_CheatSheet.txt** for help).
-* a subset of `pelican-plugins (https://github.com/getpelican/pelican-plugins/)`, which are a submodule of this repository in the folder **pelican-plugins**
+* a `pelican <http://getpelican.com>`_ project (all content as reStructuredText, see **reStructuredText_CheatSheet.txt** for help).
+* a subset of `pelican-plugins <https://github.com/getpelican/pelican-plugins/>`_, which are a submodule of this repository in the folder **pelican-plugins**
 * a customized theme - have a look at the **theme** folder (soon)
 
 Getting the content
@@ -35,14 +35,14 @@ Generating new content
 
 Testing new content locally
 ---------------------------
-| You can easily locally test your changes by starting a simple python HTTP server for the **output** folder.
+| You can easily test your changes locally by starting a simple python HTTP server for the **output** folder.
 
   .. code:: bash
 
     cd output
     python -m http.server
 
-| This will start the web server on your `localhost (http://localhost:8000)` on port 8000, so you can easily have a look at your modifications.
+| This will start the web server on your `localhost <http://localhost:8000>`_ on port 8000, so you can have a look at your modifications.
 | (You can also use the **develop_server.sh** script in the root of this repository for this.)
 
 Upload new content to the webserver
